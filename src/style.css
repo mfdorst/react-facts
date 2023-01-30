@@ -37,6 +37,10 @@ nav {
 main {
   color: white;
   padding: 57px 27px;
+  background-image: url(./react-icon.svg);
+  background-repeat: no-repeat;
+  background-position: right 75%;
+  background-size: 170px;
 }
 
 .title {
@@ -57,4 +61,9 @@ main {
 .facts > li {
   padding-block: 10px;
   max-width: 390px;
+}
+
+.facts > li::marker {
+  color: #61DAFB;
+  font-size: 1.3rem;
 }
